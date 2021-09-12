@@ -11,6 +11,11 @@ A repo containing some algorithms I learned and practiced
 ## Algorithm Templates
 
 1. [Binary Search](https://github.com/yitongknows/algo/blob/main/templates/binary-search-template.py)
+2. [Quick Sort](https://github.com/yitongknows/algo/blob/main/templates/quicksort-template.py)
+3. [Merge Sort](https://github.com/yitongknows/algo/blob/main/templates/mergesort-template.py)
+4. [Quick Select](https://github.com/yitongknows/algo/blob/main/templates/quickselect-template.py)
+5. [Two Sum class using Two Pointers](https://github.com/yitongknows/algo/blob/main/templates/twosumclass-template.py)
+
 
 ## Binary Search
 
