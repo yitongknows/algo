@@ -1,4 +1,3 @@
-
 # Algorithm Practices
 
 A repo containing some algorithms I learned and practiced
@@ -15,7 +14,7 @@ A repo containing some algorithms I learned and practiced
 3. [Merge Sort](https://github.com/yitongknows/algo/blob/main/templates/mergesort-template.py)
 4. [Quick Select](https://github.com/yitongknows/algo/blob/main/templates/quickselect-template.py)
 5. [Two Sum class using Two Pointers](https://github.com/yitongknows/algo/blob/main/templates/twosumclass-template.py)
-
+6. [Valid Palindrome using Two Pointers](https://github.com/yitongknows/algo/blob/main/templates/valid-palindrome-template.py)
 
 ## Binary Search
 
