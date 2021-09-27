@@ -15,6 +15,7 @@ A repo containing some algorithms I learned and practiced
 4. [Quick Select](https://github.com/yitongknows/algo/blob/main/templates/quickselect-template.py)
 5. [Two Sum class using Two Pointers](https://github.com/yitongknows/algo/blob/main/templates/twosumclass-template.py)
 6. [Valid Palindrome using Two Pointers](https://github.com/yitongknows/algo/blob/main/templates/valid-palindrome-template.py)
+7. [Longest Palindrome using Hash Table](<(https://github.com/yitongknows/algo/blob/main/templates/longest-palindrome-template.py)>)
 
 ## Binary Search
 
@@ -26,3 +27,7 @@ A repo containing some algorithms I learned and practiced
 4. [Find Last Occurrence Using While Loop](https://github.com/yitongknows/algo/blob/main/src/binary-search-whileloop2.py) `Easy`
 5. [Mountain Sequence with One Peak](https://github.com/yitongknows/algo/blob/main/src/bs-maintain-sequence-max.py) `Medium`
 6. [Mountain Sequence with Multiple Peaks](https://github.com/yitongknows/algo/blob/main/src/find-mountain-peak.py) `Medium`
+
+## Hash Table
+
+1. [Longest Palindrome using HashTable](https://github.com/yitongknows/algo/blob/main/src/longest-palindrome-hashtable.py) `Easy`
