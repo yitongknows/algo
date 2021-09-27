@@ -31,3 +31,7 @@ A repo containing some algorithms I learned and practiced
 ## Hash Table
 
 1. [Longest Palindrome using HashTable](https://github.com/yitongknows/algo/blob/main/src/longest-palindrome-hashtable.py) `Easy`
+
+## Python Built-In Functions
+
+1. [Valid Palindrome using Python Built-in functions](https://github.com/yitongknows/algo/blob/main/src/valid-palindrome-python.py) `Easy`
