@@ -30,8 +30,16 @@ A repo containing some algorithms I learned and practiced
 
 ## Hash Table
 
+> Time complexity T(n) = O(n)
+
 1. [Longest Palindrome using HashTable](https://github.com/yitongknows/algo/blob/main/src/longest-palindrome-hashtable.py) `Easy`
+
+2. [Plain Two Sum using HashSet](https://github.com/yitongknows/algo/blob/main/src/plain-two-sum-hash.py) `Easy`
 
 ## Python Built-In Functions
 
 1. [Valid Palindrome using Python Built-in functions](https://github.com/yitongknows/algo/blob/main/src/valid-palindrome-python.py) `Easy`
+
+## Two Pointers
+
+> Time complexity T(n) = O(n)
