@@ -42,4 +42,4 @@ A repo containing some algorithms I learned and practiced
 
 ## Two Pointers
 
-> Time complexity T(n) = O(n)
+1. [Plain Two Sum using TwoPointers](https://github.com/yitongknows/algo/blob/main/src/plain-two-sum-twopointers.py) `Easy`
