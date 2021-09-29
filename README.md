@@ -49,3 +49,5 @@ A repo containing some algorithms I learned and practiced
 3. [Sort Colors using TwoPointers](https://github.com/yitongknows/algo/blob/main/src/sort-colors-twopointer.py) `Medium` `Revisit`
 
 4. [Three Sum using TwoPointers](https://github.com/yitongknows/algo/blob/main/src/three-sum-two-pointers.py) `Medium` `Revisit`
+
+5. [Partition Arracy using TwoPointers](https://github.com/yitongknows/algo/blob/main/src/partition-array-two-pointers.py) `Medium`
