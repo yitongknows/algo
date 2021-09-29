@@ -45,3 +45,5 @@ A repo containing some algorithms I learned and practiced
 1. [Plain Two Sum using TwoPointers](https://github.com/yitongknows/algo/blob/main/src/plain-two-sum-twopointers.py) `Easy`
 
 2. [Two Sum Unique Pairs using TwoPointers](https://github.com/yitongknows/algo/blob/main/src/two-sum-unique-pairs-tp.py) `Medium`
+
+3. [Sort Colors using TwoPointers](https://github.com/yitongknows/algo/blob/main/src/sort-colors-twopointer.py) `Medium`
