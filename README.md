@@ -50,4 +50,4 @@ A repo containing some algorithms I learned and practiced
 
 4. [Three Sum using TwoPointers](https://github.com/yitongknows/algo/blob/main/src/three-sum-two-pointers.py) `Medium` `Revisit`
 
-5. [Partition Arracy using TwoPointers](https://github.com/yitongknows/algo/blob/main/src/partition-array-two-pointers.py) `Medium`
+5. [Partition Arracy using TwoPointers](https://github.com/yitongknows/algo/blob/main/src/partition-array-two-pointer.py) `Medium`
