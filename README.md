@@ -4,7 +4,7 @@ A repo containing some algorithms I learned and practiced
 
 ## Index
 
-1. [Algorithm Templates](#algorithm-templates)
+<!-- 1. [Algorithm Templates](#algorithm-templates) -->
 2. [Binary Search](#binary-search)
 <!-- 
 ## Algorithm Templates
