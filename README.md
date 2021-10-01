@@ -28,6 +28,8 @@ A repo containing some algorithms I learned and practiced
 5. [Mountain Sequence with One Peak](https://github.com/yitongknows/algo/blob/main/src/bs-maintain-sequence-max.py) `Medium`
 6. [Mountain Sequence with Multiple Peaks](https://github.com/yitongknows/algo/blob/main/src/find-mountain-peak.py) `Medium`
 
+7. [Wood Cut](https://github.com/yitongknows/algo/blob/main/src/wood-cut.py) `Hard` `resivit`
+
 ## Hash Table
 
 > Time complexity T(n) = O(n)
