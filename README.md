@@ -6,7 +6,7 @@ A repo containing some algorithms I learned and practiced
 
 1. [Algorithm Templates](#algorithm-templates)
 2. [Binary Search](#binary-search)
-
+<!-- 
 ## Algorithm Templates
 
 1. [Binary Search](https://github.com/yitongknows/algo/blob/main/templates/binary-search-template.py)
@@ -15,7 +15,7 @@ A repo containing some algorithms I learned and practiced
 4. [Quick Select](https://github.com/yitongknows/algo/blob/main/templates/quickselect-template.py)
 5. [Two Sum class using Two Pointers](https://github.com/yitongknows/algo/blob/main/templates/twosumclass-template.py)
 6. [Valid Palindrome using Two Pointers](https://github.com/yitongknows/algo/blob/main/templates/valid-palindrome-template.py)
-7. [Longest Palindrome using Hash Table](https://github.com/yitongknows/algo/blob/main/templates/longest-palindrome-template.py)
+7. [Longest Palindrome using Hash Table](https://github.com/yitongknows/algo/blob/main/templates/longest-palindrome-template.py) -->
 
 ## Binary Search
 
