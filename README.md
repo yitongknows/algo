@@ -5,8 +5,14 @@ A repo containing some algorithms I learned and practiced
 ## Index
 
 <!-- 1. [Algorithm Templates](#algorithm-templates) -->
+
 2. [Binary Search](#binary-search)
-<!-- 
+3. [Hash Table](#hash-table)
+4. [Python Built-In Functions](#python-built-in-functions)
+5. [Two Pointers](#two-pointers)
+6. [Sliding Window](#sliding-window)
+ <!--
+
 ## Algorithm Templates
 
 1. [Binary Search](https://github.com/yitongknows/algo/blob/main/templates/binary-search-template.py)
@@ -53,3 +59,7 @@ A repo containing some algorithms I learned and practiced
 4. [Three Sum using TwoPointers](https://github.com/yitongknows/algo/blob/main/src/three-sum-two-pointers.py) `Medium` `Revisit`
 
 5. [Partition Arracy using TwoPointers](https://github.com/yitongknows/algo/blob/main/src/partition-array-two-pointer.py) `Medium`
+
+## Sliding Window
+
+1. [Grumpy Bookstore Owener](https://github.com/yitongknows/algo/blob/main/src/bookstore-owner.py) `Medium` `Revisit`
