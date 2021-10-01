@@ -65,3 +65,5 @@ A repo containing some algorithms I learned and practiced
 1. [Grumpy Bookstore Owener](https://github.com/yitongknows/algo/blob/main/src/bookstore-owner.py) `Medium` `Revisit`
 
 2. [Best Time to Buy and Sell Stock III](https://github.com/yitongknows/algo/blob/main/src/best-time-to-buy-sell-stocks.py) `Medium`
+
+3. [Pick Apples](https://github.com/yitongknows/algo/blob/main/src/pick-apples-sw.py) `Medium`
