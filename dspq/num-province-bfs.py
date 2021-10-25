@@ -1,6 +1,6 @@
 """
 Q:https://leetcode.com/problems/number-of-provinces/submissions/
-T(n) = O(n^2)
+T(n) = O(n^2) worse case is to traverse the complete matrix of size n^2
 s(n) = O(n)
 """
 class Solution:
