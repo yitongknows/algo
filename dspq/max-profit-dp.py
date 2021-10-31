@@ -16,6 +16,9 @@ class Solution:
         #initialize a dp array to store the end time, and the max_p at time n
         # at time 0, the max p = 0
         dp = [[0, 0]]
+        # if need to store path
+        dp_path = [[]]
+        
         print(list(jobs))
         # for each job, two options
         # you don't do the job, then the max p will be the same as the max profit at the start end of this job, or < then the start time of this job
@@ -23,11 +26,13 @@ class Solution:
         
         for start_time, end_time, profit in jobs:
             #binary search
-            prior_profit = self.binarySearch(dp, start_time)
+            prior_profit, idx = self.binarySearch(dp, start_time)
             
             print(prior_profit)
             if prior_profit + profit > dp[-1][1]:
                 dp.append([end_time, prior_profit + profit])
+                #update path
+                dp_path.append(dp_path[idx] + [(start_time,end_time,profit)])
         
         # return the last value
         print(dp)
@@ -47,6 +52,6 @@ class Solution:
         
         # compare to see what is the max
         if dp[end][0] <= start_time:
-            return dp[end][1]
+            return dp[end][1], end
         else:
-            return dp[start][1]
+            return dp[start][1], start
