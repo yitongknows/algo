@@ -5,6 +5,12 @@
 #         self.left = left
 #         self.right = right
 
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None, is_alive=True):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+#         self.is_alive = is_alive
 """
 Time complexity: O(N), where N is number of nodes, since we visit each node not more than 2 times.
 
