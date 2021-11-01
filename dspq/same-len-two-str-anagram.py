@@ -1,12 +1,20 @@
 class Solution:
     def minSteps(self, s: str, t: str) -> int:
-        h1 = [0]*26
-        h2 = [0]*26
-        for c in s:
-            h1[ord(c) - ord('a')] += 1
-        for c in t:
-            h2[ord(c) - ord('a')] += 1
+        # find the minimum number of steps to make two strings anagram
         
-        diff = 0
-        diff = sum([abs(h1[i] - h2[i]) for i in range(len(h1))]) // 2
-        return abs(diff)
+        NUM_LETTERS = 26
+        s_dict = [0] * NUM_LETTERS
+        t_dict = [0] * NUM_LETTERS
+        
+        for i in range(len(s)):
+            s_dict[ord(s[i]) - ord("a")] += 1
+            t_dict[ord(t[i]) - ord("a")] += 1
+        
+        """
+        s = bab [1 2 0..]
+        t = aba [2 1 0..]
+        s - t = [-1 1 0]
+        """
+        print([abs(t_dict[i] - s_dict[i]) for i in range(len(s_dict))])
+        diff = sum(abs(t_dict[i] - s_dict[i]) for i in range(len(s_dict))) // 2
+        return diff
