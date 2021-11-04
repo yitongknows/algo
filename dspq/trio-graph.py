@@ -41,7 +41,8 @@ class Solution:
                         continue
                     
                     # k in i, find our trio relationship
-                    degree = len(graph[i]) + len(graph[j]) + len(graph[k])
+                    degree = len(graph[i]) + len(graph[j])
+                    \ + len(graph[k])
                     min_degree = min(min_degree, degree)
             
         min_degree -= TRIO_CONNECTION
