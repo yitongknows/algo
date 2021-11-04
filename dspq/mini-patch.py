@@ -1,13 +1,13 @@
 class Solution:
     def minPatches(self, nums, n):
-        reach, ans, idx = 0, 0, 0
+        limit, count, i = 0, 0, 0
         
-        while reach < n:
-            if idx < len(nums) and nums[idx] <= reach + 1:
-                reach += nums[idx]
-                idx += 1
+        while limit < n:
+            if i < len(nums) and nums[i] <= limit + 1:
+                limit += nums[i]
+                i += 1
             else:
-                ans += 1
-                reach = 2*reach + 1       
+                count += 1
+                limit = limit + (limit + 1)       
                 
-        return ans
+        return count
