@@ -21,7 +21,8 @@ class Solution:
         
         print(list(jobs))
         # for each job, two options
-        # you don't do the job, then the max p will be the same as the max profit at the start end of this job, or < then the start time of this job
+        # you don't do the job, then the max p will be the same 
+        # as the max profit at the start end of this job, or < then the start time of this job
         # or you do the job, same logic + the current profit
         
         for start_time, end_time, profit in jobs:
@@ -32,14 +33,16 @@ class Solution:
             if prior_profit + profit > dp[-1][1]:
                 dp.append([end_time, prior_profit + profit])
                 #update path
-                dp_path.append(dp_path[idx] + [(start_time,end_time,profit)])
+                dp_path.append(dp_path[idx] \+
+                               [(start_time,end_time,profit)])
         
         # return the last value
         print(dp)
         return dp[-1][1]
     
     def binarySearch(self, dp, start_time):
-        # we want to find what is the max profit made before this start time
+        # we want to find what is the max profit 
+        #made before this start time
         start, end = 0, len(dp) - 1
         max_p = 0
         while start + 1 < end:
