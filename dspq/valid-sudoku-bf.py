@@ -22,7 +22,8 @@ class Solution:
         #check sub-boxes
         for i in range(0, n, 3):
             for j in range(0, n, 3):
-                block = [board[k][h] for k in range(i, i+3) for h in range(j, j+3) if board[k][h] != "."]
+                block = [board[k][h] for k in range(i, i+3) \
+                         for h in range(j, j+3) if board[k][h] != "."]
                 if not self.isValid(block):
                     return False
         
